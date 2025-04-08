@@ -22,3 +22,5 @@ for T in range(1, TC+1):
             if i > max:
                 max = i
     print(f'#{T} {max+1}')
+
+#맞는지 틀린지 확인 불가
