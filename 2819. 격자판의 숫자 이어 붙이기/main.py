@@ -13,7 +13,7 @@ def dfs(x, y, path):
 
 T = int(input())
 for tc in range(1, T + 1):
-    maze = [input().split() for _ in range(4)]
+    maze = [input().split() for _ in range(4)] 
     result = set()
 
     for i in range(4):
