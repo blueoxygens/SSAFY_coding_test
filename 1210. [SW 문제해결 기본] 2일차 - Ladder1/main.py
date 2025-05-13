@@ -35,5 +35,3 @@ for tc in range(10):
         if arr[99][i] == 2:
             ans = find_route(arr, i)
             print(f"#{T} {ans}")
-
-    
