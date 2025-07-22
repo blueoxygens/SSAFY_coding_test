@@ -32,6 +32,4 @@ for tc in range(1, T+1):
                 break
         if endf:
             break
-    if tc == 1:
-        print(tree)
     print(f'#{tc} {min_gap}')
