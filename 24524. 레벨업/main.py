@@ -19,7 +19,7 @@ for tc in range(1, T+1):
             nodemap[i].append((i+1, abs(node[i+1] - node[i])))
             nodemap[i].append((i+2, abs(node[i+2] - node[i])))
     
-    print(nodemap)
+    # print(nodemap)
 
     ans = math.inf
     
