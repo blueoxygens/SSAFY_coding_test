@@ -32,5 +32,6 @@ for tc in range(1, T + 1):
         if count > max_count:
             max_count = count
             
+    # max() 함수를 사용하면 더 간단합니다: max_count = max(corridor)
     
     print(f'#{tc} {max_count}')
